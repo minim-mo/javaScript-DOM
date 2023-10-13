@@ -8,7 +8,38 @@
 <body>
     <header>
         <h1>Hello DOM!</h1>
-    </header>
+     </header>    
+     <div>
+        <p>get element by Id</p>
+        <p id="message"> A paragraph.</p>
+     </div>
+    <div>
+        <p> get element by Name</p>
+        <p>Rate the button below:
+        <label for="good">
+            <input type="radio" name="rate" value="good" id="good"> GOOD
+        </label>
+        <label for="bad">
+            <input type="radio" name="rate" value="bad" id="bad"> BAD
+        </label>
+        <label for="okay">
+            <input type="radio" name="rate" value="okay" id="okay"> OKAY
+        </label>
+    </p>
+    <p>
+        <button id="btnRate">Submit</button>
+    </p>
+    <p id="output"></p>
+    </div>
+
+<!-- change background color button -->
+    <div>
+        <h2>Click button to change background color!</h2>
+        <label for="color-btn"> 
+           <button id="btnColor">Change background color</button>  
+        </label>
+    </div>
+   
 
     <script src="./script.js"></script>
 </body>
